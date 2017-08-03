@@ -23,7 +23,7 @@ var button = document.getElementById('coun');
          }
         };
     
-request.open('GET','http://yagnimurali.imad.hasura-app.io/counter',true);
+request.open('GET','http://yagni99.imad.hasura-app.io/counter',true);
 request.send(null);
 };
 
