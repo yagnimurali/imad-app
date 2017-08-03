@@ -1,17 +1,62 @@
 <!doctype html>
+<!DOCTYPE html>
 <html>
     <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+        <title>Home | Yagni Murali</title>
         <link href="/ui/style.css" rel="stylesheet" />
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css' />
     </head>
     <body>
-        <div class="center">
-            <img src="/ui/madi.png" class="img-medium"/>
+        <div>
+            <div class="header">
+                <h3><a href="http://yagnimurali.imad.hasura-app.io/">Home</a></h3>
+            </div>
+            <div id="rightbar">
+              <h3>My info</h3>
+              <p>These are the links that provide details of my channels, pages and etc.</p>
+                <ul>
+                    <li><a href="https://www.facebook.com/TFIRulerPrabhas/">My facebook page</a></li>
+                    <li><a href="https://www.youtube.com/channel/UCMAfwtho43y_jH73V8nil-w">My youtube channel</a></li>
+                    <li><a href="https://prabhastheruler.blogspot.in/">My blog</a></li>
+                </ul>
+            </div>
+            <img id="leftbar" src="https://github.com/yagnimurali/imad-app-v2/blob/master/murali%20pro%20pic.jpg?raw=true" alt="photo of yagnimurali">
+            <p id = "sodi" style="font-weight: bold; text-align: center; font-size: 16px;">This is my web app i was running this for learning purpose </p>
+            <div class="articles">
+                <h3>These are my articles</h3>
+                <ul>
+                    <li><a href="/article-one">Article-One</a></li>
+                     <li><a href="/article-two">Article-Two</a></li>
+                      <li><a href="/article-three1">Article-Three</a></li>
+                </ul>
+            </div>
+            
+          
+            
+            <div>
+                Click this <button id = "coun" > Like </button> button...!, Till now <span id = "counterv">0</span> people liked my website
+            </div>
+        
+         <div>
+                 <input type="text" id ="textbox" placeholder="name"></input>
+                 <input type="submit" value="submit" id="submit_btn"></input>
+                
+                <ul id="namelist">
+                    
+                 </ul>
+            </div>
+        
+             
+            
+            <div class="footer">
+                <p><strong>Contact me for more info at yagni99@gmail.com.</strong></p>
+            </div>
+            
+            
+            
         </div>
-        <br>
-        <div class="center text-big bold">
-            Hi! I am your webapp.
-        </div>
-        <script type="text/javascript" src="/ui/main.js">
-        </script>
+        <script src="ui/main.js"></script>
     </body>
 </html>
