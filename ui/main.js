@@ -1,5 +1,4 @@
 console.log('Loaded!');
-console.log('Loaded!');
 //alert("Welcome! Thank you for visiting my website..
 var element = document.getElementById("sodi");
 element.innerHTML = "just a check";
@@ -23,7 +22,7 @@ var button = document.getElementById('coun');
          }
         };
     
-request.open('GET','http://yagni99.imad.hasura-app.io/counter',true);
+request.open('GET','http://yagnimurali.imad.hasura-app.io/counter',true);
 request.send(null);
 };
 
